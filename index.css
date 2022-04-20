@@ -1,0 +1,185 @@
+*{padding:0px;
+margin: 0px;
+overflow: hidden; 
+}
+.body{
+	width: 1250px;
+	height: 640px;
+	border: 4px solid black;
+	margin: 0px auto;
+}
+.row{
+	width: 1250px;
+}
+.tablisa1{
+	width: 296px;
+	height: 300px;
+	border: 2px solid red;
+	padding: 3px;
+	margin: 3px;
+	float: left;
+	background-image: url("photo/223032187_238232.jpg");
+	background-size: 296px 300px;
+	background-position: -300px center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}	
+div:hover.tablisa1 {
+	background-position: center center;
+		} 
+
+.tablisa2{
+	width: 296px;
+	height: 300px;
+	border: 2px solid red;
+	padding: 3px;
+	margin: 3px;
+	float: left;
+	background-image: url("photo/20171115_130507.jpg");
+	background-size: 296px 300px;
+	background-position: 0px -300px;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}	
+    div:hover.tablisa2
+    {
+    background-position: center center;
+		} .tablisa3{
+	width: 296px;
+	height: 300px;
+	border: 2px solid red;
+	padding: 3px;
+	margin: 3px;
+	float: left;
+	background-image: linear-gradient(blue,blue,red,white,white,red ,green,green);
+	-webkit-background-image: linear-gradient(blue,blue,red,white,white,red ,green,green);
+	-o-background-image: linear-gradient(blue,blue,red,white,white,red ,green,green);
+	-ms-background-image: linear-gradient(blue,blue,red,white,white,red ,green,green);
+	-moz-background-image: linear-gradient(blue,blue,red,white,white,red ,green,green);
+	background-position:center bottom;
+	background-size: 0px 0px;
+	transition: all 2s;
+	background-repeat: no-repeat;
+	}
+	div:hover.tablisa3{
+		background-position:center center;
+		background-size: 296px 300px; 
+	}
+.tablisa4{
+	width: 296px;
+	height: 300px;
+	border: 2px solid red;
+	padding: 3px;
+	margin: 3px;
+	float: left;
+    background-image: radial-gradient(white,blue,red);
+	-webkit-background-image: radial-gradient(white,blue,red);
+	-o-background-image: radial-gradient(white,blue,red);
+	-ms-background-image: radial-gradient(white,blue,red);
+	-moz-background-image: radial-gradient(white,blue,red);
+	background-position:center right;
+	background-size: 0px 0px;
+	transition: all 2s;
+	background-repeat: no-repeat;
+}
+
+	div:hover.tablisa4{
+		background-position:center center;
+		background-size: 296px 300px; 
+	}
+	.tablisa5{
+	width: 296px;
+	height: 300px;
+	border: 2px solid red;
+	padding: 3px;
+	margin: 3px;
+	float: left;
+    background-image:url("photo/223022339_964328.jpg");
+    background-size: 300px 305px;
+    background-repeat: no-repeat;
+    } 
+    input[type="number"]{
+			width:100px; 
+			border: 3px solid red;
+			margin: 600px;
+		}
+		div.tablisa5:hover input[type="number"]{
+			margin: 200px auto;
+			padding: 5px;
+			transition: all 1s;
+		}
+	.tablisa6{
+	width: 296px;
+	height: 300px;
+	border: 2px solid red;
+	padding: 3px;
+	margin: 3px;
+	float: left;
+	background-image: url("photo/235921720_212667.jpg");
+	background-size: 296px 300px;
+	background-repeat: no-repeat;
+}
+     input[type="text"]{
+			width:100px; 
+			border: 3px solid black;
+			margin: -150px;
+			background-color: black;
+			transition: all 1s;
+
+		}
+		div.tablisa6:hover input[type="text"]{
+			margin: 5px ;
+			transition: all 1s;
+		}
+	.tablisa7{
+	width: 296px;
+	height: 300px;
+	border: 2px solid red;
+	padding: 3px;
+	margin: 3px;
+	float: left;
+    background-image:url("photo/246938900_395236.jpg");
+    background-size: 296px 300px;
+    background-repeat: no-repeat;
+}
+span{
+	color: red;
+	font-style: italic;
+	font-size: 18px;
+	margin:88px;
+	opacity: 0;	
+}
+ div.tablisa7:hover span 
+ {
+opacity: 1;
+transition: all 3s;
+ }
+
+	.tablisa8{
+	width: 296px;
+	height: 300px;
+	border: 2px solid red;
+	padding: 3px;
+	margin: 3px;
+	float: left;
+    background-image:url("photo/CV3pLTmKZCM.jpg");
+    background-size: 296px 300px;
+    background-repeat: no-repeat;
+}
+
+p{
+	color: black;
+	font-style: italic;
+	font-size: 18px;
+	margin:5px auto;
+	opacity: 0;
+	padding: 5px;	
+}
+ div.tablisa8:hover p 
+ {
+opacity: 1;
+transition: all 1s;
+ }
+	#tozalash{
+	clear: both;
+}
